@@ -1,0 +1,52 @@
+1. Imagine you're having a conversation with a future colleague about whether to use the iPython
+   Shell instead of Python's default shell. What reasons would you give to explain the benefits of
+   using the iPython Shell over the default one?
+
+   - One of the biggest benefits is syntax highlighting. Aside from that, iPython offers features that
+     Python's default shell doesn't, such as tab-completion, multi-line editing and interactive help. It 
+     also keeps a persistent command history across sessions, allowing you to access and rerun previous
+     commands. You can also easily customize it with the integration of various plugins and extensions.
+
+2. Python has a host of different data types that allow you to store and organize information. List 4
+   examples of data types that Python recognizes, briefly define them, and indicate whether they are
+   scalar or non-scalar.
+
+   - Data Type  : integer
+     Definition : Includes both negative and non-negative numbers from zero to infinity. The int data types
+                  has no theoretical limit, apart from the memory available on your system.
+     Is Scalar  : TRUE
+
+   - Data Type  : float
+     Definition : Includes both negative and non-negative numbers but are decimal numbers.
+     Is Scalar  : TRUE
+
+   - Data Type  : bool
+     Definition : This data type stores either two values - True or False - and is useful for storing the
+                  output of any condition that may be checked.
+     Is Scalar  : TRUE
+
+   - Data Type  : NoneType
+     Definition : This is a special data type in Python that carries one value: None. Similar to null in
+                  other programming languages.
+     Is Scalar  : TRUE
+
+3. A frequent question at job interviews for Python devvelopers is, "What is the difference between lists
+   and tuples in Python?". Write down how you would respond.
+
+   - Lists and Tuples are similar in that they store an array of data that can be of various data types.
+     The biggest difference between them though is that lists are mutable while tuples are immutable. In other
+     words, any of the internal elements of a list can be modified or deleted. Tuples, however, have the advantage
+     of being faster to read and access, especially when large amounts of data are invloved.
+
+4. In the task for this exercise, you decided what you thought was the most suitable data structure for storing
+   all the information for a recipe. Now, imagine you're creating a language-learning app that helps users
+   memorize vocabulary through flashcards. Users can input vocabulary words, definitions, and their category
+   (noun, verb, etc.) into the flashcards. They can then quiz themselves by flipping through the flashcards.
+   Think about the necessary data types and what would be the most suitable data structure for this language-learning
+   app. Between tuples, lists, and dictionaries, which would you choose? Think about their respective advantages and
+   limitations, and where flexibility might be useful if you were to continue developing the language-learning app
+   beyond vocabulary memorization.
+
+   - To store the collection of flaschards I would use a dictionary, using the vocabulary word as the key. The flexibility
+     that is offered by using a dictionary is very important, given that you can store additional metadata for each flashcard.
+     It is also easy to find and update a flashcard by using the vocab word as the key.
