@@ -89,3 +89,11 @@ print(Height(5, 10) == Height(5, 10))
 print(Height(4, 6) > Height(4, 5))
 print(Height(4, 5) >= Height(4, 5))
 print(Height(5, 9) >= Height(5, 10))
+
+a, b, c, d, e, f = Height(4, 10), Height(5, 6), Height(7, 1), Height(5, 5), Height(6, 7), Height(5, 6)
+
+heights = [a, b, c, d, e, f]
+
+heights = sorted(heights)
+for height in heights:
+  print(height)

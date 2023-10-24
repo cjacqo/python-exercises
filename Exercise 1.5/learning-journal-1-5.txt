@@ -1,0 +1,37 @@
+1. In your own words, what is object-oriented programming? What are the benefits of OOP?
+
+   - Object-oriented programming is what puts to practice DRY principles ("Don't Repeat Yourself") which helps keep code
+     from being repetive. The benefits of OOP include not only keeping your code non-repetative, but also non-redudant and
+     efficient. Using OOP, you can create what are known as classes which can have their own custom methods, the ability to
+     create sub classes from parent classes, and more.
+
+2. What are objects and classes in Python? Come up with a real-world example to illustrate how objects and classes work.
+
+   - Objects in Python are variables that have their own built-in methods and function for performing operations. An object
+     can vary in type (string, integer, etc.) depending on how it was defined. A class is considered a blueprint of objects.
+     An example of a class could be a house. It contains all the details about the floors, doors, windows and more. In order
+     to make an object that represents a house, we much set a variable to be an instance of the house class.
+
+3. In your own words, write brief explanations of the following OOP concepts; 100 to 200 words per method is fine.
+
+   - Inheritance: Inheritance in Object-Oriented Programming (OOP) is a fundamental concept that allows one class to inherit
+     properties and behaviors from another class. It establishes a hierarchical relationship between classes, enabling the
+     creation of more specialized classes (derived or child classes) based on existing, more generalized classes
+     (base or parent classes). This relationship promotes code reusability and abstraction. Inheritance simplifies code
+     development, maintenance, and organization by promoting a hierarchical structure where common functionality resides in
+     parent classes and specialized features are added in child classes.
+
+   - Polymorphism: Polymorphism is a crucial concept in Object-Oriented Programming (OOP) that allows objects of different
+     classes to be treated as objects of a common superclass. This means that you can use a uniform interface to interact
+     with various objects, regardless of their specific class, promoting flexibility and code reuse. In simpler terms,
+     polymorphism enables you to call the same method or function on different objects, and the behavior of that method
+     can vary depending on the actual class of the object. This is achieved through method overriding, where subclasses
+     provide their own implementations of methods defined in their parent class.
+
+   - Operator Overloading: Operator overloading in Object-Oriented Programming (OOP) is a technique that allows you to give
+     custom meanings to standard operators like +, -, *, /, and more for user-defined classes. This means you can define how
+     objects of your class should behave when operated upon with these operators, making your code more intuitive and readable.
+     By defining these custom behaviors, you can create more expressive and natural code for your classes. However, it's essential
+     to ensure that the overloaded operators follow logical and meaningful conventions to avoid confusion in your code. Operator
+     overloading is a powerful feature in OOP that adds syntactic sugar to your classes, making them more user-friendly and enhancing
+     the readability of your code.
