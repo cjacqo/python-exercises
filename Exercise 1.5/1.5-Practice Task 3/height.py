@@ -82,3 +82,10 @@ person_D_height = Height(5, 10)
 height_dif = person_C_height - person_D_height
 
 print('Total height:', height_dif)
+
+print(Height(4, 5) < Height(4, 6))
+print(Height(4, 5) <= Height(4, 5))
+print(Height(5, 10) == Height(5, 10))
+print(Height(4, 6) > Height(4, 5))
+print(Height(4, 5) >= Height(4, 5))
+print(Height(5, 9) >= Height(5, 10))
