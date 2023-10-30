@@ -125,7 +125,7 @@ def create_recipe():
   recipe_entry.calculate_difficulty()
   # # Insert entry into table
   session.add(recipe_entry)
-  session.commit('created')
+  commit_changes('created')
 
 ## Search for a Recipe
 def search_recipe():
