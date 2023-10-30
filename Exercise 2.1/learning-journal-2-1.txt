@@ -1,0 +1,21 @@
+1. Suppose you're a web developer in a company anbd need to decide if you'll use vanilla (plain) Python for a project, or
+   a framework like Django instead. What are the advantages and drawbacks of each?
+
+   - The advantages of using vanilla Python would be simplicity and flexibility, lightweight and a deeper learning experience,
+     while the drawbacks would include you "reinventing the wheel", lack of built-in tools and a burden when it came to maintenance.
+     For Django, the advantages would include rapid development, security, community support, and scalability, while the disadvantages
+     would include a learning curve, overhead in terms of file size and performance, and less flexibility.
+
+2. In your own words, what is the most significatn advantage of the Model View Template (MVT) architechture over Model View Controller (MVC)
+   architechture?
+
+   - The most significant advantage of the Model-View-Template (MVT) architecture over the traditional Model-View-Controller (MVC) architecture
+     is the clear separation of concerns and the encapsulation of business logic. This separation allows web developers to work more efficiently
+     and with a greater focus on their specific responsibilities.
+
+3. Now that you've had an introduction to the Django framework, write down three goals you have for yourself and your learning process,
+   during this Achievement.
+
+   - I would like to learn more about the security that is involved with Django.
+   - I would like to learn how to implement MVT architechture in a web application.
+   - I would like to learn more about the plugins that are included with Django, such as admin panels and authentication.
