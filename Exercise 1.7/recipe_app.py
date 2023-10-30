@@ -284,7 +284,7 @@ def edit_recipe():
       new_name = str(input('\nEnter the new name: ')).title()
     try:
       session.query(Recipe).filter(Recipe.id == recipe_selected).update({ Recipe.name: new_name })
-      commit_changes()
+      commit_changes('updated')
       return
     except Exception as e:
       handle_error(e)
@@ -354,7 +354,7 @@ def edit_recipe():
         }
       )
 
-      commit_changes()
+      commit_changes('updated')
     except Exception as e:
       handle_error(e)
       return
