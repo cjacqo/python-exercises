@@ -1,0 +1,38 @@
+1. Suppose you're in an interview. The interviewer gives you their company's website as an example, asking you
+   to convert the website and its different parts into Django terms. How would you proceed? For this question,
+   you can think about your dream company and look at their website for reference.
+
+   - For the project (the website) there are many apps (modules) that handle different services with specific
+     functionality. The site may have a login app, a products app, a blog app, a careers app, and more. 
+
+2. In your own words, describe the steps you would take to deploy a basic Django application locallaly on your
+   system.
+
+   - Step 1: Create a folder and name it whatever you like
+   - Step 2: Open up a terminal and navigate to that empty folder
+   - Step 3: If you don't have one already, create a virtual environment with the following command:
+             -> mkvirtualenv <ENVIRONMENT_NAME>
+
+             * Note: instead of writing <ENVIRONMENT_NAME>, name it whatever you like, without spaces
+
+   - Step 4: Run the following command to activate the virtual environment:
+             -> workon <ENVIRONMENT_NAME>
+   - Step 5: Install Django via pip:
+             -> pip install django
+   - Step 6: After Django is installed, initialize the project:
+             -> django-admin startproject <NAME_OF_PROJECT>
+   - Step 7: With your project structure initialized, you are now able to run migrations:
+             -> python manage.py migrate
+   - Step 8: Finally, you are able to start your server:
+             -> python manage.py startapp <APP_NAME>
+
+3. Do some research about the Django admin site and write down how you'd use it during your web application
+   development.
+
+   - The Django admin site is a powerful and built-in tool that simplifies the process of managing and interacting
+     with your web application's data. It provides a user-friendly interface for performing various administrative
+     tasks, such as creating, reading, updating, and deleting (CRUD) records in your database. Beyond that, the Django
+     admin site comes with a robust permission system. You can assign different levels of access to users and groups,
+     allowing fine-grained control over who can perform various actions in the admin interface. The admin site logs all
+     changes made through the interface, so you can track who made changes and when. This can be invaluable for auditing
+     and debugging.
